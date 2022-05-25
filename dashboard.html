@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<!--
+Template Name: Metronic - Bootstrap 4 HTML, React, Angular 11 & VueJS Admin Dashboard Theme
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: https://1.envato.market/EA4JP
+Renew Support: https://1.envato.market/EA4JP
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+<!--begin::Head-->
+
+<head>
+    <base href="../../">
+    <meta charset="utf-8" />
+    <title>Validacion MIGE</title>
+    <meta name="description" content="Tabbed card examples" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="canonical" href="https://keenthemes.com/metronic" />
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <!--begin::Global Theme Styles(used by all pages)-->
+    <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Global Theme Styles-->
+    <!--begin::Layout Themes(used by all pages)-->
+    <link href="assets/css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/layout/brand/dark.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/themes/layout/aside/dark.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <!--end::Layout Themes-->
+    <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+    <style>
+        #tblhoras_imp{
+                display:none;
+            }
+        @media print {
+            #tblhoras_web{
+                display:none;
+            }
+            #tblhoras_imp{
+                display:block;
+            }
+            .bg-impresion{
+                background-color: #7c43cc !important;
+            }
+        }
+    </style>
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<body>
+    <!--begin::Content-->
+    <div class="content py-0 d-flex flex-column flex-column-fluid " id="kt_content">
+        <!--begin::Subheader-->
+        <div class="subheader py-2 py-lg-6 subheader-solid" id="kt_subheader">
+            <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <!--begin::Info-->
+                <div class="d-flex align-items-center flex-wrap mr-1">
+                    <!--begin::Page Heading-->
+                    <div class="d-flex align-items-baseline flex-wrap mr-5">
+                        <!--begin::Page Title-->
+                        <h5 class="text-dark font-weight-bold my-1 mr-5">Validación MIGE</h5>
+                        <!--end::Page Title-->
+                        <!--begin::Breadcrumb-->
+                        <ul
+                            class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
+                            <li class="breadcrumb-item text-muted">
+                                <a href="" class="text-muted">CCT</a>
+                            </li>
+                            <li class="breadcrumb-item text-muted">
+                                <a href="" class="text-muted">Usuario</a>
+                            </li>
+                            <li class="breadcrumb-item text-muted">
+                                <a href="" class="text-muted">lorem</a>
+                            </li>
+                        </ul>
+                        <!--end::Breadcrumb-->
+                    </div>
+                    <!--end::Page Heading-->
+                </div>
+                <!--end::Info-->
+                <!--begin::Toolbar-->
+                <div class="d-flex align-items-center">
+                    <span>LOGO</span>
+                </div>
+                <!--end::Toolbar-->
+            </div>
+        </div>
+        <!--end::Subheader-->
+        <!--begin::Entry-->
+        <div class="d-flex flex-column-fluid">
+            <!--begin::Container-->
+            <div class="container">
+                <!--begin::Notice-->
+                <!-- <div class="alert alert-custom alert-white alert-shadow fade show gutter-b mt-10" role="alert">
+                    <div class="alert-icon">
+                        <span class="svg-icon svg-icon-primary svg-icon-xl">
+                            begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg-->
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24" />
+                                    <path
+                                        d="M7.07744993,12.3040451 C7.72444571,13.0716094 8.54044565,13.6920474 9.46808594,14.1079953 L5,23 L4.5,18 L7.07744993,12.3040451 Z M14.5865511,14.2597864 C15.5319561,13.9019016 16.375416,13.3366121 17.0614026,12.6194459 L19.5,18 L19,23 L14.5865511,14.2597864 Z M12,3.55271368e-14 C12.8284271,3.53749572e-14 13.5,0.671572875 13.5,1.5 L13.5,4 L10.5,4 L10.5,1.5 C10.5,0.671572875 11.1715729,3.56793164e-14 12,3.55271368e-14 Z"
+                                        fill="#000000" opacity="0.3" />
+                                    <path
+                                        d="M12,10 C13.1045695,10 14,9.1045695 14,8 C14,6.8954305 13.1045695,6 12,6 C10.8954305,6 10,6.8954305 10,8 C10,9.1045695 10.8954305,10 12,10 Z M12,13 C9.23857625,13 7,10.7614237 7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 C17,10.7614237 14.7614237,13 12,13 Z"
+                                        fill="#000000" fill-rule="nonzero" />
+                                </g>
+                            </svg>
+                            end::Svg Icon-->
+                        <!-- </span>
+                    </div>
+                    <div class="alert-text">Metronic extends
+                        <code>Bootstrap Navs</code>component with a variety of options to provide unique looking Line
+                        Tab components that matches Metronic's design standards.
+                        <br />For more info please visit the plugin's
+                        <a class="font-weight-bold" href="https://getbootstrap.com/docs/4.6/components/navs/#tabs"
+                            target="_blank">Documentation</a>.
+                    </div>
+                </div> -->
+                <!--end::Notice-->
+                <!--begin::Row-->
+                <div class="row">
+
+                    <div class="col-md-12 mt-10 ">
+                        <!--begin::Card-->
+                        <div class="card card-custom ">
+                            <div class="card-header bg-impresion">
+                                <div class="card-title">
+                                    <h3 class="card-label">Información de la escuela</h3>
+                                </div>
+
+                            </div>
+                            <div class="card-body">
+                                <!--Apartado 1-->
+                                <div class="row justify-content-center py-2 px-0 py-md-2 px-md-0">
+                                    <div class="col-md-12 pb-5 bg-impresion">
+                                        <div class="d-flex justify-content-between  flex-column flex-md-row">
+                                            <h5 class=" font-weight-boldest ">Datos de la Escuela</h5>
+                                            <span class=""></span>
+                                            <span class="text-success font-weight-bolder">
+                                                VALIDADO <i class=" label label-xl label-success mr-2 flaticon2-check-mark text-white"></i>
+                                            </span>
+                                        </div>
+                                        <div class="d-flex justify-content-between pt-6">
+                                            <div class="d-flex flex-column flex-root">
+                                                <span class="opacity-70 font-weight-bolder ">Región Escolar</span>
+                                                <span class="font-weight-bolder mt-2">
+                                                    Toluca
+                                                </span>
+                                            </div>
+                                            <div class="d-flex flex-column flex-root">
+                                                <span class="opacity-70 font-weight-bolder">Zona Escolar</span>
+                                                <span class="font-weight-bolder mt-2">BG01</span>
+                                            </div>
+                                            <div class="d-flex flex-column flex-root">
+                                                <span class="opacity-70 font-weight-bolder">CCT</span>
+                                                <span class="font-weight-bolder mt-2">15EBH0000</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between pt-6">
+                                            <div class="d-flex flex-column flex-root">
+                                                <span class="opacity-70 font-weight-bolder ">Nombre de la Escuela</span>
+                                                <span class="font-weight-bolder mt-2">
+                                                    Escuela Preparatoria
+                                                    Oficial
+                                                </span>
+                                            </div>
+                                            <div class="d-flex flex-column flex-root">
+                                                <span class="opacity-70 font-weight-bolder ">Turno</span>
+                                                <span class="font-weight-bolder mt-2">Matutino</span>
+                                            </div>
+                                            <div class="d-flex flex-column flex-root">
+                                                <span class="opacity-70 font-weight-bolder ">Municipio</span>
+                                                <span class="font-weight-bolder mt-2">Toluca</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="border-bottom w-100"></div>
+                                        <div class="d-flex mt-10 justify-content-between  flex-column flex-md-row">
+                                            <h5 class=" font-weight-boldest ">Total de horas</h5>
+                                            <span class=""></span>
+                                            <span class="text-danger font-weight-bolder">
+                                                NO CUMPLE <i class=" label label-xl label-danger mr-2 flaticon2-cross text-white"></i>
+                                            </span>
+                                        </div>
+                                        <!--begin: Datatable-->
+                                        <table class="table col-md-4" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th title="Field #1">Actualmente tienen</th>
+                                                    <th title="Field #2">Deben ser</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-danger font-weight-bold">
+                                                        <h3>60 horas</h3>
+                                                    </td>
+                                                    <td class="font-weight-bold">
+                                                        <h3>80 horas</h3>
+                                                    </td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+
+
+
+
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="border-bottom w-100"></div>
+                                        <div class="d-flex mt-10 justify-content-between  flex-column flex-md-row">
+                                            <h5 class=" font-weight-boldest ">Matrícula por Grado y Grupo</h5>
+                                            <span class=""></span>
+                                            <span class="text-danger font-weight-bolder">
+                                                NO CUMPLE <i class=" label label-xl label-danger mr-2 flaticon2-cross text-white"></i>
+                                            </span>
+                                        </div>
+                                        <!--begin: Datatable-->
+                                        <table class="table col-md-4" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th title="Field #1">Grado</th>
+                                                    <th title="Field #1">Grupo</th>
+                                                    <th title="Field #1">Actualmente tienen</th>
+                                                    <th title="Field #2">Deben ser</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>PRIMER Grado</td>
+                                                    <td>1</td>
+                                                    <td class="text-danger font-weight-bold">
+                                                        <h3>35 alumnos</h3>
+                                                    </td>
+                                                    <td class="font-weight-bold">
+                                                        <h3>40 alumnos</h3>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PRIMER Grado</td>
+                                                    <td>2</td>
+                                                    <td class="text-success font-weight-bold">
+                                                        <h3>42 alumnos</h3>
+                                                    </td>
+                                                    <td class="font-weight-bold">
+                                                        <h3>42 alumnos</h3>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="border-bottom w-100"></div>
+                                        <div class="d-flex mt-10 justify-content-between  flex-column flex-md-row">
+                                            <h5 class=" font-weight-boldest ">Total matrícula del plantel</h5>
+                                            <span class=""></span>
+                                            <span class="text-danger font-weight-bolder">
+                                                NO CUMPLE <i class=" label label-xl label-danger mr-2 flaticon2-cross text-white"></i>
+                                            </span>
+                                        </div>
+                                        <!--begin: Datatable-->
+                                        <table class="table col-md-4" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th title="Field #1">Actualmente tienen</th>
+                                                    <th title="Field #2">Deben ser</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-danger font-weight-bold">
+                                                        <h3>1489 alumnos</h3>
+                                                    </td>
+                                                    <td class="font-weight-bold">
+                                                        <h3>1500 alumnos</h3>
+                                                    </td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Card-->
+                    </div>
+
+
+                    <div class="col-md-12 mt-10">
+                        <!--begin::Card-->
+                        <div class="card card-custom">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h3 class="card-label">Plazas de supervisión</h3>
+                                </div>
+
+                            </div>
+                            <div class="card-body">
+                                <!--Apartado 1-->
+                                <div class="row justify-content-center py-2 px-0 py-md-2 px-md-0">
+                                    <div class="col-md-12">
+
+
+                                        <!--begin: Datatable-->
+                                        <table class="table" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th title="Field #1">Plaza</th>
+                                                    <th title="Field #2">Tipo</th>
+                                                    <th title="Field #3">CSP</th>
+                                                    <th title="Field #4">Nombre</th>
+                                                    <th title="Field #5">Perfil</th>
+                                                    <th title="Field #6">Vigencia</th>
+                                                    <th title="Field #6">Estatus</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Supervisor Escolar</td>
+                                                    <td>A</td>
+                                                    <td>123456</td>
+                                                    <td>Paola Delgadillo</td>
+                                                    <td>Profesor</td>
+                                                    <td>25/05/2022</td>
+                                                    <td><span
+                                                            class="label label-lg  label-success label-inline font-weight-bolder mr-2">CUMPLE</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Supervisor Escolar</td>
+                                                    <td>A</td>
+                                                    <td>123456</td>
+                                                    <td>Paola Delgadillo</td>
+                                                    <td>Profesor</td>
+                                                    <td>25/05/2022</td>
+                                                    <td><span
+                                                            class="label label-lg  label-danger label-inline font-weight-bolder mr-2">NO
+                                                            CUMPLE</span></td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Card-->
+                    </div>
+
+                    <div class="col-md-12 mt-10">
+                        <!--begin::Card-->
+                        <div class="card card-custom">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h3 class="card-label">Plazas Directivas</h3>
+                                </div>
+
+                            </div>
+                            <div class="card-body">
+                                <!--Apartado 1-->
+                                <div class="row justify-content-center py-2 px-0 py-md-2 px-md-0">
+                                    <div class="col-md-12">
+                                        <!--begin: Datatable-->
+                                        <table class="table" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th title="Field #1">Plaza</th>
+                                                    <th title="Field #2">Tipo</th>
+                                                    <th title="Field #3">CSP</th>
+                                                    <th title="Field #4">Nombre</th>
+                                                    <th title="Field #5">Perfil</th>
+                                                    <th title="Field #6">Vigencia</th>
+                                                    <th title="Field #7">Estatus</th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Director</td>
+                                                    <td>A</td>
+                                                    <td>210021016</td>
+                                                    <td>PERLA MENDOZA OSORIO</td>
+                                                    <td>Lorem</td>
+                                                    <td>01/07/2022</td>
+                                                    <td><span
+                                                            class="label label-lg  label-success label-inline font-weight-bolder mr-2">CUMPLE</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>Director</td>
+                                                    <td>A</td>
+                                                    <td>210021016</td>
+                                                    <td>PERLA MENDOZA OSORIO</td>
+                                                    <td>Lorem</td>
+                                                    <td>01/07/2022</td>
+                                                    <td><span
+                                                            class="label label-lg  label-danger label-inline font-weight-bolder mr-2">NO
+                                                            CUMPLE</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Card-->
+                    </div>
+
+                    <div class="col-md-12 mt-10">
+                        <!--begin::Card-->
+                        <div class="card card-custom">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h3 class="card-label">Horas Clase</h3>
+                                </div>
+
+                            </div>
+                            <div class="card-body" id="tblhoras_web">
+                                <!--Apartado 1-->
+                                <div class="row justify-content-center py-2 px-0 py-md-2 px-md-0">
+                                    <div class="col-md-12">
+                                        <!--begin: Datatable-->
+                                        <table class="table" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th class="tbl-imp">Docente</th>
+                                                    <th class="tbl-imp">No. de Plaza </th>
+                                                    <th class="tbl-imp">Determinadas<br>Frente a Grupo</th>
+                                                    <th class="tbl-imp">Determinadas<br>Administrativas</th>
+                                                    <th class="tbl-imp">Indeterminadas<br>Frente a Grupo</th>
+                                                    <th class="tbl-imp">Indeterminadas<br>Administrativas</th>
+                                                    <th class="tbl-imp">Carga<br>Horaria</th>
+                                                    <th class="tbl-imp">Materias<br>Impartidas</th>
+                                                    <th class="tbl-imp">Total de horas<br>clase por semestre</th>
+                                                    <th class="tbl-imp">Estatus </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b class="h5">Perla Mendoza Osorio</b><br>
+                                                        Clave de Servidor Público: <b>210021016</b><br>
+                                                        Feccha de Ingreso: <b>01/11/2022</b><br>
+                                                        Perfil: <b>Lorem</b>
+                                                    </td>
+                                                    <td>A2100000000</td>
+                                                    <td>10</td>
+                                                    <td>10</td>
+                                                    <td>6</td>
+                                                    <td>80</td>
+                                                    <td>5</td>
+                                                    <td>0</td>
+                                                    <td>10</td>
+                                                    <td>
+                                                        <span
+                                                            class="label label-lg  label-success label-inline font-weight-bolder mr-2">CUMPLE</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <b class="h5">PERLA MENDOZA OSORIO</b><br>
+                                                        CSP: <b>210021016</b><br>
+                                                        Fec.Ingreso: <b>01/11/2022</b><br>
+                                                        Perfil: <b>Lorem</b>
+                                                    </td>
+                                                    <td>A2100000000</td>
+                                                    <td>A</td>
+                                                    <td>A</td>
+                                                    <td>6</td>
+                                                    <td>80</td>
+                                                    <td>5</td>
+                                                    <td>0</td>
+                                                    <td>10</td>
+                                                    <td>
+                                                        <span
+                                                            class="label label-lg  label-danger label-inline font-weight-bolder mr-2">
+                                                            NO
+                                                            CUMPLE
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card-body" id="tblhoras_imp">
+                                <!--Apartado 1-->
+                                <div class="row justify-content-center py-2 px-0 py-md-2 px-md-0">
+                                    <div class="col-md-12">
+                                        <!--begin: Datatable-->
+                                        <table class="table" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th class="tbl-imp">Docente</th>
+                                                    <th class="tbl-imp">No. de Plaza </th>
+                                                    <th class="tbl-imp">Tipo de Horas </th>
+                                                    <th class="tbl-imp">Carga Horaria</th>
+                                                    <th class="tbl-imp">Materias Impartidas</th>
+                                                    <th class="tbl-imp">Total Horas</th>
+                                                    <th class="tbl-imp">Estatus </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <b>PERLA MENDOZA OSORIO</b><br>
+                                                        <b>210021016</b><br>
+                                                        Feccha de Ingreso: <b>01/11/2022</b><br>
+                                                        Perfil: <b>Lorem</b>
+                                                    </td>
+                                                    <td>A2100000000</td>
+                                                    <td>
+                                                        Determinadas frente a grupo: <b>0</b><br>
+                                                        Determinadas Administrativas: <b>0</b><br>
+                                                        Indeterminadas frente a grupo: </b>0<br>
+                                                        Indeterminadas Administrativas: </b>0<br>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>
+                                                        10 horas clase por semestre
+                                                    </td>
+                                                    <td>
+                                                        <span><b>10</b></span>0 horas clase por semestre
+                                                    </td>
+                                                    <td>
+                                                        <span
+                                                            class="label label-lg  label-success label-inline font-weight-bolder mr-2">CUMPLE</span>
+                                                    </td>
+                                                </tr>
+
+                                                
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Card-->
+                    </div>
+
+                    <div class="col-md-12 mt-10">
+                        <!--begin::Card-->
+                        <div class="card card-custom">
+                            <div class="card-header">
+                                <div class="card-title">
+                                    <h3 class="card-label">Infraestructura Escolar</h3>
+                                </div>
+
+                            </div>
+                            <div class="card-body">
+                                <!--Apartado 1-->
+                                <div class="row justify-content-center py-2 px-0 py-md-2 px-md-0">
+                                    <div class="col-md-12">
+                                        <!--begin: Datatable-->
+                                        <table class="table" id="horas_clase">
+                                            <thead>
+                                                <tr>
+                                                    <th title="Field #1">Aulas <br>Disponibles</th>
+                                                    <th title="Field #2">Número de<br> Laboratorios</th>
+                                                    <th title="Field #7">Estatus</th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>20</td>
+                                                    <td>3</td>
+                                                    <td>
+                                                        <span
+                                                            class="label label-lg  label-success label-inline font-weight-bolder mr-2">CUMPLE</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>20</td>
+                                                    <td>3</td>
+                                                    <td>
+                                                        <span
+                                                            class="label label-lg  label-danger label-inline font-weight-bolder mr-2">
+                                                            NO
+                                                            CUMPLE
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--end: Datatable-->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::Card-->
+                    </div>
+                </div>
+                <!--end::Row-->
+            </div>
+            <!--end::Container-->
+        </div>
+        <!--end::Entry-->
+    </div>
+    <!--end::Content-->
+
+    <script>var HOST_URL = "https://preview.keenthemes.com/metronic/theme/html/tools/preview";</script>
+    <!--begin::Global Config(global config for global JS scripts)-->
+    <script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1400 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#3699FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#E4E6EF", "dark": "#181C32" }, "light": { "white": "#ffffff", "primary": "#E1F0FF", "secondary": "#EBEDF3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#3F4254", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#EBEDF3", "gray-300": "#E4E6EF", "gray-400": "#D1D3E0", "gray-500": "#B5B5C3", "gray-600": "#7E8299", "gray-700": "#5E6278", "gray-800": "#3F4254", "gray-900": "#181C32" } }, "font-family": "Poppins" };</script>
+    <!--end::Global Config-->
+    <!--begin::Global Theme Bundle(used by all pages)-->
+    <script src="assets/plugins/global/plugins.bundle.js"></script>
+    <script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+    <!--end::Global Theme Bundle-->
+
+</body>
+<!--end::Body-->
+
+</html>
