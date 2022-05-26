@@ -27523,11 +27523,12 @@ h3 {
 
   .table {
     border-collapse: collapse !important;
+    background-color: none!important;
   }
-  .table td,
+  /* .table td,
 .table th {
     background-color: #ffffff !important;
-  }
+  } */
 
   .table-bordered th,
 .table-bordered td {
