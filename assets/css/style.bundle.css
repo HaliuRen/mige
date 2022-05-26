@@ -68155,9 +68155,9 @@ code {
   width: 8px;
 }
 .label.label-xl {
-  height: 28px;
-  width: 28px;
-  font-size: 1rem;
+  height: 35px;
+  width: 35px;
+  font-size: 1.5rem;
 }
 .label.label-xl.label-inline {
   width: auto;
